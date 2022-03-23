@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap.css">
+        <title>Page d'authentification</title>
+    </head>
+<body>
+    <center>
+        
+        <div style="height: 300px ;width:300px ;
+    border: 4px solid tomato;
+    background-color: chartreuse;">
+            <h4>Pas encore Inscrit ?</h4>
+            <button><a href="inscrire.html">S'inscrire</a></button>
+            <h4><i>Identifiez vous pour acceder</i></h4> <br>
+            <form >
+                Login: <input type="text" id="le_login"></input><br> 
+                Code : <input type="password" id="le_pass"></input><br>
+                <button onclick="connecter(event)">Se connecter</a></button><br>
+            </form>
+            <p align="center" id="avertir"></p>
+    </center>
+    </div>
+</body>
+<script src="jsauthen.js"></script>
+</html>
